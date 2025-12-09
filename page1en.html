@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon – Childhood</title>
+
+
+    <link rel="stylesheet" href="modern.css">
+
+    <style>
+        /* MINI HERO HEADER (matches main page style) */
+        .sub-hero {
+            background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(20,20,20,0.92)),
+                        url("images/childhood_banner.png") center/cover no-repeat;
+            padding: 90px 30px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 0 35px rgba(0,0,0,0.5);
+        }
+
+        .sub-hero h1 {
+            font-size: 50px;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255,215,0,0.4);
+            margin-bottom: 10px;
+        }
+
+        .sub-hero p {
+            color: #e5e5e5;
+            max-width: 750px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Card image enhancements */
+        .section-img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 18px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+            float: right;
+            box-shadow: 0 0 18px rgba(0,0,0,0.45);
+        }
+
+        .section-img.large {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+<ul>
+<li><a href="indexen.html">Home</a></li>
+<li><a href="page1en.html"class="active">Childhood</a></li>
+<li><a href="page2en.html">War of the First Coalition</a></li>
+<li><a href="page3en.html">War of the Second Coalition</a></li>
+<li><a href="page4en.html">Campaign in Egypt</a></li>
+<li><a href="page5en.html">Coup d'état</a></li>
+<li><a href="page6en.html">3rd, 4th and 5th Coalitions</a></li>
+<li><a href="page7en.html">Campaign in Russia</a></li>
+<li><a href="page8en.html">Sixth Coalition</a></li>
+<li><a href="page9en.html">The Hundred Days</a></li>
+<li><a href="credits.html">Bibliography</a></li>
+</ul>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+    <!-- MINI HERO -->
+    <section class="sub-hero">
+        <h1>Napoleon's childhood</h1>
+        <p>
+            The early years of the young Napoleon Bonaparte, the future emperor of France.
+        </p>
+    </section>
+
+<!-- SECTION 1 -->
+<section class="card wrap">
+<img class="section-img" src="images/Portret.png" alt="Portret Napoleon copil">
+<h2>Childhood</h2>
+<p>
+Born in Corsica in 1769, <strong>Napoleon Bonaparte</strong> came from a family of Italian nobility. His father, Carlo Buonaparte, was a lawyer who was appointed as Corsica's representative at the court of Louis XVI, while his mother, Maria Letizia Ramolino, was known for her firm discipline.        </p>
+<p>
+His father, Carlo Buonaparte, was a lawyer and Corsican representative at the court of Louis XVI,
+and his mother, Maria Letizia Ramolino, was known for her strict discipline, which strongly influenced
+Napoleon's character.
+</p>
+</section>
+
+<!-- SECTION 2 -->
+<section class="card wrap" style="margin-top: 35px;">
+<img class="section-img large" src="images/ecole.png" alt="Școala militară">
+<h2>Napoleon's Academic Background</h2>
+<p>
+Napoleon was baptized a Catholic and began his education at a theological school, to learn French.
+In May 1779, he was admitted to the Military Academy at Brienne-le-Château, where he particularly excelled in mathematics.
+</p>
+
+<p>
+In 1784, he was admitted to the prestigious <strong>École Militaire de Paris</strong>, which he graduated in just one year,
+due to intense effort and the difficult family situation after the death of his father. At the age of only 16, he became
+a second lieutenant in artillery.
+</p>
+
+<p>
+During the French Revolution, Napoleon returned to Corsica, where he supported the Jacobin faction.
+He participated in local political and military conflicts, and his pro-republican pamphlet,
+<em>"Le Souper de Beaucaire"</em>, brought him acclaim and promotion to brigadier general
+after his success at the Siege of Toulon.
+</p>
+</section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

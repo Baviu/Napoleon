@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon și Epoca Sa – Pagina Principală</title>
+
+    <link rel="stylesheet" href="modern.css">
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<nav id="sidebar">
+<ul>
+<li><a href="indexen.html"class="active">Home</a></li>
+<li><a href="page1en.html">Childhood</a></li>
+<li><a href="page2en.html">War of the First Coalition</a></li>
+<li><a href="page3en.html">War of the Second Coalition</a></li>
+<li><a href="page4en.html">Campaign in Egypt</a></li>
+<li><a href="page5en.html">Coup d'état</a></li>
+<li><a href="page6en.html">3rd, 4th and 5th Coalitions</a></li>
+<li><a href="page7en.html">Campaign in Russia</a></li>
+<li><a href="page8en.html">Sixth Coalition</a></li>
+<li><a href="page9en.html">The Hundred Days</a></li>
+<li><a href="credits.html">Bibliography</a></li>
+</ul>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+   <!-- HERO BANNER -->
+<section class="hero">
+<h1>Napoleon and His Era</h1>
+<p>
+Discover the life, ambitions and great campaigns of the emperor who changed the destiny of Europe.
+</p>
+</section>
+
+<!-- INTRO CARD -->
+<section class="card wrap">
+<img class="float-right" src="images/portret.png" alt="Portret Napoleon">
+<h2>Introduction</h2>
+<p>
+<strong>Napoleon Bonaparte</strong> was one of the most complex and influential figures in universal history.
+Through military talent, political reforms and enormous ambition, he reformed France and shaped the European continent.
+</p>
+<p>
+This site presents you with a complete journey through the decisive moments of his life: childhood, rise,
+great campaigns, reign as emperor and final collapse.
+</p>
+</section>
+
+<!-- SECTIONS OVERVIEW -->
+<section class="card" style="margin-top: 40px;">
+<h2>Explore the ages of Napoleon</h2>
+<p>Choose a stage to continue exploring.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; margin-top: 25px;">
+
+<a href="page1.html" class="overview-box">
+<img src="images/copil.png" class="overview-img" alt="">
+<h3>Childhood</h3>
+<p>The origins and education of the young Napoleon.</p>
+</a>
+
+<a href="page4.html" class="overview-box">
+<img src="images/egypt.png" class="overview-img" alt="">
+<h3>The campaign in Egypt</h3>
+<p>War, science and oriental ambition.</p>
+</a>
+
+<a href="page7.html" class="overview-box">
+<img src="images/rusia.png" class="overview-img" alt="">
+<h3>The Russian Campaign</h3>
+<p>Military disaster, massive retreat, harsh winter.</p>
+</a>
+
+<a href="page9.html" class="overview-box">
+<img src="images/suta.png" class="overview-img" alt="">
+<h3>The Hundred Days</h3>
+<p>Napoleon's return, final defeat at Waterloo.</p>
+</a>
+
+</div>
+
+</section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon – Copilăria</title>
+
+    <link rel="stylesheet" href="modern.css">
+
+    <style>
+        /* MINI HERO HEADER (matches main page style) */
+        .sub-hero {
+            background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(20,20,20,0.92)),
+                        url("images/childhood_banner.png") center/cover no-repeat;
+            padding: 90px 30px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 0 35px rgba(0,0,0,0.5);
+        }
+
+        .sub-hero h1 {
+            font-size: 50px;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255,215,0,0.4);
+            margin-bottom: 10px;
+        }
+
+        .sub-hero p {
+            color: #e5e5e5;
+            max-width: 750px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Card image enhancements */
+        .section-img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 18px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+            float: right;
+            box-shadow: 0 0 18px rgba(0,0,0,0.45);
+        }
+
+        .section-img.large {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+<ul>
+<li><a href="indexen.html">Home</a></li>
+<li><a href="page1en.html">Childhood</a></li>
+<li><a href="page2en.html">War of the First Coalition</a></li>
+<li><a href="page3en.html">War of the Second Coalition</a></li>
+<li><a href="page4en.html">Campaign in Egypt</a></li>
+<li><a href="page5en.html">Coup d'état</a></li>
+<li><a href="page6en.html">3rd, 4th and 5th Coalitions</a></li>
+<li><a href="page7en.html">Campaign in Russia</a></li>
+<li><a href="page8en.html" >Sixth Coalition</a></li>
+<li><a href="page9en.html"class="active">Period The Hundred Days</a></li>
+<li><a href="credits.html">Bibliography</a></li>
+</ul>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+<h1 class="main-title">The Hundred Days</h1>
+
+<!-- SECTION 1 -->
+<section class="card">
+
+<p>
+<h2>The End.</h2>
+The Hundred Days refers to the period between the return of Napoleon Bonaparte to Paris (March 20, 1815), after his exile on Elba, and the restoration of King Louis XVIII on July 8, 1815. During this period, the Sixth Coalition, which included Austria, Prussia, Russia, the United Kingdom, and several German states, was formed with the aim of defeating Napoleon. The coalition mobilized nearly a million soldiers, with 85,000 Austrian and Piedmontese troops in northern and central Italy, 168,000 Russian troops moving into central Germany, 225,000 Austrian and German troops stationed along the Rhine, and 94,600 Anglo-Allied troops in Belgium under the command of the Duke of Wellington.
+</p>
+<h2>Abdication of Power</h2>
+<p>
+Napoleon's plan was to divide the enemy forces and defeat them separately. He intended to first defeat the Anglo-Allied and Prussian armies in Belgium, before turning against the Austrian and Russian forces. Napoleon's maneuver through Charleroi, which involved striking between the two enemy armies and cutting their lines of communication, was a success. This strategic move was possible because the Coalition had not anticipated that the French would use this difficult route, and the Prussian and Anglo-Allied armies were surprised by the French attack. Despite Napoleon's victories at Ligny and Quatre Bras, he failed to achieve a decisive victory, and the Prussian and Anglo-Allied armies were able to retreat. Napoleon then made a fatal mistake by dividing his army and sending a large part with Marshal Grouchy to pursue the retreating Prussians, leaving him outnumbered at Waterloo. The Battle of Waterloo, fought on 18 June 1815, ended in a decisive victory for the Coalition, and Napoleon was forced to abdicate for the second time.</p>
+</section>
+
+</div>
+
+<!-- JS -->
+<script src="app.js"></script>
+
+</body>
+</html>

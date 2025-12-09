@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon – Copilăria</title>
+
+    <link rel="stylesheet" href="modern.css">
+
+    <style>
+        /* MINI HERO HEADER (matches main page style) */
+        .sub-hero {
+            background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(20,20,20,0.92)),
+                        url("images/childhood_banner.png") center/cover no-repeat;
+            padding: 90px 30px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 0 35px rgba(0,0,0,0.5);
+        }
+
+        .sub-hero h1 {
+            font-size: 50px;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255,215,0,0.4);
+            margin-bottom: 10px;
+        }
+
+        .sub-hero p {
+            color: #e5e5e5;
+            max-width: 750px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Card image enhancements */
+        .section-img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 18px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+            float: right;
+            box-shadow: 0 0 18px rgba(0,0,0,0.45);
+        }
+
+        .section-img.large {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+    <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="page1.html">Copilăria</a></li>
+        <li><a href="page2.html">Războiul primei coaliții</a></li>
+        <li><a href="page3.html">Războiul celei de-a doua coaliții</a></li>
+        <li><a href="page4.html">Campania în Egipt</a></li>
+        <li><a href="page5.html">Lovitura de stat</a></li>
+        <li><a href="page6.html">A 3-a, a 4-a și a 5-a coaliție</a></li>
+        <li><a href="page7.html">Campania din Rusia</a></li>
+        <li><a href="page8.html" >Coaliția a Șasea</a></li>
+        <li><a href="page9.html"class="active">Perioada Celor o sută de zile</a></li>
+        <li><a href="credits.html">Bibliografie</a></li>
+    </ul>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+    <h1 class="main-title">Perioada Celor o sută de zile</h1>
+
+    <!-- SECTION 1 -->
+    <section class="card">
+
+        <p>
+<h2>Finalul.</h2>
+        Perioada Celor o sută de zile se referă la intervalul dintre întoarcerea lui Napoleon Bonaparte la Paris (20 martie 1815), după exilul său în Elba, și restaurarea regelui Ludovic al XVIII-lea la 8 iulie 1815. În timpul acestei perioade, a fost formată Coalitia a Șasea, care includea Austria, Prusia, Rusia, Regatul Unit și mai multe state germane, cu scopul de a-l învinge pe Napoleon. Coalitia a mobilizat aproape un milion de soldați, cu 85.000 de trupe austriece și piemontene în nordul și centrul Italiei, 168.000 de soldați ruși îndreptându-se spre centrul Germaniei, 225.000 de trupe austriece și germane staționate de-a lungul Rinului și 94.600 de soldați anglo-aliați în Belgia sub comanda Ducele de Wellington.
+        </p>
+<h2>Abdicarea Puterii</h2>
+        <p>
+Planul lui Napoleon era să împartă forțele inamice și să le înfrângă separat. El urmărea să învingă mai întâi armatele anglo-aliate și prusace în Belgia, înainte de a se întoarce împotriva forțelor austriece și ruse. Manevra lui Napoleon prin Charleroi, care implica lovitura între cele două armate inamice și tăierea liniilor lor de comunicare, a fost un succes. Această mișcare strategică a fost posibilă deoarece Coalitia nu anticipase că francezii vor folosi această rută dificilă, iar armatele prusace și anglo-aliate au fost surprinse de atacul francez. În ciuda victoriilor lui Napoleon la Ligny și Quatre Bras, el nu a reușit să obțină o victorie decisivă, iar armatele prusace și anglo-aliate au reușit să se retragă. Napoleon a făcut apoi o greșeală fatală prin împărțirea armatei sale și trimiterea unei părți mari cu Mareșalul Grouchy să urmărească prusacii în retragere, lăsându-l în minoritate la Waterloo. Bătălia de la Waterloo, luptată la 18 iunie 1815, s-a încheiat cu o victorie decisivă pentru Coalitie, iar Napoleon a fost nevoit să abdice pentru a doua oară.</p>
+    </section>
+
+   </div>
+
+<!-- JS -->
+<script src="app.js"></script>
+
+</body>
+</html>

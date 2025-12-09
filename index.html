@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon și Epoca Sa – Pagina Principală</title>
+
+    <link rel="stylesheet" href="modern.css">
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<nav id="sidebar">
+    <ul>
+        <li><a href="index.html"class="active">Acasă</a></li>
+        <li><a href="page1.html">Copilăria</a></li>
+        <li><a href="page2.html">Războiul primei coaliții</a></li>
+        <li><a href="page3.html">Războiul celei de-a doua coaliții</a></li>
+        <li><a href="page4.html">Campania în Egipt</a></li>
+        <li><a href="page5.html">Lovitura de stat</a></li>
+        <li><a href="page6.html">A 3-a, a 4-a și a 5-a coaliție</a></li>
+        <li><a href="page7.html">Campania din Rusia</a></li>
+        <li><a href="page8.html">Coaliția a Șasea</a></li>
+        <li><a href="page9.html">Perioada Celor o sută de zile</a></li>
+        <li><a href="credits.html">Bibliografie</a></li>
+    </ul>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+    <!-- HERO BANNER -->
+    <section class="hero">
+        <h1>Napoleon și Epoca Sa</h1>
+        <p>
+            Descoperă viața, ambițiile și marile campanii ale împăratului care a schimbat destinul Europei.
+        </p>
+    </section>
+
+    <!-- INTRO CARD -->
+    <section class="card wrap">
+        <img class="float-right" src="images/portret.png" alt="Portret Napoleon">
+        <h2>Introducere</h2>
+        <p>
+            <strong>Napoleon Bonaparte</strong> a fost una dintre cele mai complexe și influente figuri ale istoriei universale.
+            Prin talent militar, reforme politice și o ambiție enormă, el a reformat Franța și a modelat continentul european.
+        </p>
+        <p>
+            Acest site îți prezintă o călătorie completă prin momentele decisive ale vieții sale: copilăria, ascensiunea,
+            marile campanii, domnia ca împărat și prăbușirea finală.
+        </p>
+    </section>
+
+    <!-- SECTIONS OVERVIEW -->
+    <section class="card" style="margin-top: 40px;">
+        <h2>Explorați epocile lui Napoleon</h2>
+        <p>Alegeți o etapă pentru a continua explorarea.</p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; margin-top: 25px;">
+
+            <a href="page1.html" class="overview-box">
+                <img src="images/copil.png" class="overview-img" alt="">
+                <h3>Copilăria</h3>
+                <p>Originile și educația tânărului Napoleon.</p>
+            </a>
+
+            <a href="page4.html" class="overview-box">
+                <img src="images/egypt.png" class="overview-img" alt="">
+                <h3>Campania din Egipt</h3>
+                <p>Război, știință și ambiție orientală.</p>
+            </a>
+
+            <a href="page7.html" class="overview-box">
+                <img src="images/rusia.png" class="overview-img" alt="">
+                <h3>Campania din Rusia</h3>
+                <p>Dezastru militar, retragere masivă, iarnă cruntă.</p>
+            </a>
+
+            <a href="page9.html" class="overview-box">
+                <img src="images/suta.png" class="overview-img" alt="">
+                <h3>Perioada Celor o sută de zile</h3>
+                <p>Revenirea lui Napoleon, înfrângere finală la Waterloo.</p>
+            </a>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

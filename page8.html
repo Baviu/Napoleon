@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon – Copilăria</title>
+
+    <link rel="stylesheet" href="modern.css">
+
+    <style>
+        /* MINI HERO HEADER (matches main page style) */
+        .sub-hero {
+            background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(20,20,20,0.92)),
+                        url("images/childhood_banner.png") center/cover no-repeat;
+            padding: 90px 30px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 0 35px rgba(0,0,0,0.5);
+        }
+
+        .sub-hero h1 {
+            font-size: 50px;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255,215,0,0.4);
+            margin-bottom: 10px;
+        }
+
+        .sub-hero p {
+            color: #e5e5e5;
+            max-width: 750px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Card image enhancements */
+        .section-img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 18px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+            float: right;
+            box-shadow: 0 0 18px rgba(0,0,0,0.45);
+        }
+
+        .section-img.large {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+    <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="page1.html">Copilăria</a></li>
+        <li><a href="page2.html">Războiul primei coaliții</a></li>
+        <li><a href="page3.html">Războiul celei de-a doua coaliții</a></li>
+        <li><a href="page4.html">Campania în Egipt</a></li>
+        <li><a href="page5.html">Lovitura de stat</a></li>
+        <li><a href="page6.html">A 3-a, a 4-a și a 5-a coaliție</a></li>
+        <li><a href="page7.html">Campania din Rusia</a></li>
+        <li><a href="page8.html"class="active">Coaliția a Șasea</a></li>
+        <li><a href="page9.html">Perioada Celor o sută de zile</a></li>
+        <li><a href="credits.html">Bibliografie</a></li>
+    </ul>
+</nav>
+
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+    <h1 class="main-title">Coalitia a Șasea</h1>
+
+    <!-- SECTION 1 -->
+    <section class="card">
+
+        <p>
+<h2>Alianța</h2>
+         Coalitia a Șasea a fost o alianță militară împotriva Imperiului Francez al lui Napoleon, formată din Austria, Prusia, Rusia, Suedia, Regatul Unit și mai multe state germane. Această coaliție a fost formată în contextul Războaielor Napoleoniene și a reușit să-l învingă pe Napoleon și să-l împingă în exil. Formarea Coalitiei a Șasea a fost determinată de invazia dezastruoasă a Rusiei de către Napoleon în 1812. După suferirea de pierderi grele, armata lui Napoleon a fost forțată să se retragă, iar mulți dintre aliații săi au început să ia în considerare rebeliunea. Convenția de la Tauroggen, semnată în decembrie 1812, a marcat un punct de cotitură semnificativ când generalul prusac Yorck von Wartenburg a declarat neutralitate și a refuzat să continue să susțină armata lui Napoleon. În februarie 1813, Austria și-a încheiat alianța cu Franța și a trecut la o poziție de neutralitate armată. Între timp, Suedia a intrat într-o alianță militară cu Regatul Unit și a declarat război Franței. Prusia a urmat exemplul și a declarat război Franței în martie 1813, iar primul conflict armat între Coaliție și Franța a avut loc la 5 aprilie.
+        </p>
+<h2>Reușite</h2>
+        <p>
+Coalitia a Șasea a reușit să profite de poziția slăbită a lui Napoleon în Războiul Peninsular, unde el retrăsese trupele pentru a-și întări forțele din Europa Centrală. Forțele anglo-spaniol-portugheze au profitat de această slăbiciune și până în iunie 1813 au învins decisiv forțele lui Napoleon în Spania. Victoria finală a Coalitiei a Șasea a venit în Bătălia de la Leipzig, cunoscută și sub numele de Bătălia Națiunilor, în octombrie 1813. Această bătălie a fost cea mai mare din istoria europeană înainte de Primul Război Mondial și a marcat începutul sfârșitului pentru imperiul lui Napoleon. Aliații au continuat să avanseze în Franța, ocupând în cele din urmă Parisul și forțându-l pe Napoleon să abdice. În concluzie, Coalitia a Șasea a fost o alianță militară semnificativă care a reușit să-l învingă pe Napoleon și să pună capăt imperiului său. Succesul coaliției a fost datorat unei combinații între poziția slăbită a lui Napoleon, dezertarea mai multor aliați și priceperea strategică și militară a liderilor Coaliției.</p>
+    </section>
+
+   </div>
+
+<!-- JS -->
+<script src="app.js"></script>
+
+</body>
+</html>

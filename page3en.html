@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napoleon – Copilăria</title>
+
+    <link rel="stylesheet" href="modern.css">
+
+    <style>
+        /* MINI HERO HEADER (matches main page style) */
+        .sub-hero {
+            background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(20,20,20,0.92)),
+                        url("images/childhood_banner.png") center/cover no-repeat;
+            padding: 90px 30px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 0 35px rgba(0,0,0,0.5);
+        }
+
+        .sub-hero h1 {
+            font-size: 50px;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255,215,0,0.4);
+            margin-bottom: 10px;
+        }
+
+        .sub-hero p {
+            color: #e5e5e5;
+            max-width: 750px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Card image enhancements */
+        .section-img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 18px;
+            margin-left: 25px;
+            margin-bottom: 20px;
+            float: right;
+            box-shadow: 0 0 18px rgba(0,0,0,0.45);
+        }
+
+        .section-img.large {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+<label class="lang-switch">
+    <input type="checkbox" id="lang-toggle">
+    <div class="slider"></div>
+    <span class="lang ro">RO</span>
+    <span class="lang en">EN</span>
+</label>
+<button class="toggle-menu" onclick="toggleSidebar()">☰</button>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="page1en.html">Childhood</a></li>
+<li><a href="page2en.html">War of the First Coalition</a></li>
+<li><a href="page3en.html"class="active">War of the Second Coalition</a></li>
+<li><a href="page4en.html">Campaign in Egypt</a></li>
+<li><a href="page5en.html">Coup d'état</a></li>
+<li><a href="page6en.html">3rd, 4th and 5th Coalitions</a></li>
+<li><a href="page7en.html">Campaign in Russia</a></li>
+<li><a href="page8en.html">Coalition of Six</a></li>
+<li><a href="page9en.html">The Hundred Days</a></li>
+<li><a href="credits.html">Bibliography</a></li>
+</ul>
+</nav>
+
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+
+<h1 class="main-title">War of the Second Coalition</h1>
+
+<!-- SECTION 1 -->
+<section class="card">
+<h2>1789</h2>
+<p>
+Britain and Austria formed a new coalition against France in 1798, which included Russia for the first time, although nothing further took place until 1799, apart from the Naples expedition.
+Another expedition was sent to County Mayo to aid the revolt against Britain in the summer of 1798. It was successful against British forces, most notably at Castlebar. The French ships sent to assist were captured by the Royal Navy off County Donegal.
+</p>
+</section>
+
+<!-- SECTION 2 -->
+<section class="card">
+<h2>1799</h2>
+<p>
+In Europe, the Allies mounted several invasions, including campaigns in Italy and Switzerland and an Anglo-Russian invasion of the Low Countries. Russian general Alexander Suvorov inflicted a series of defeats on the French in Italy, pushing them back to the Alps. However, the Allies were less successful in the Low Countries, from where Britain withdrew after a stalemate (although they managed to capture the Dutch fleet), and in Switzerland, where, after several victories, the Russian army was completely defeated at the Second Battle of Zürich.
+</p>
+</section>
+
+<!-- SECTION 3 -->
+<section class="card">
+<h2>1800</h2>
+<p>
+Napoleon sent Moreau on a campaign in Germany, and went himself to raise a new army at Dijon and march through Switzerland to attack the Austrian armies in Italy from the rear. Barely avoiding defeat, he defeated Austria at Marengo and reoccupied northern Italy. Meanwhile, Moreau invaded Bavaria and won a major battle against Austria at Hohenlinden. Moreau continued to advance towards Vienna, forcing Austria to sue for peace.
+</p>
+</section>
+
+<!-- SECTION 4 -->
+<section class="card">
+<h2>1801</h2>
+<p>
+The Austrians negotiated the Treaty of Lunéville, essentially accepting the terms of the Treaty of Campo Formio. In Egypt, the Ottomans and British advanced and eventually forced the French forces to surrender after the fall of Cairo and Alexandria. Britain continued the war at sea. A coalition of neutral states including Prussia, Russia, Denmark, and Sweden intervened to protect neutral shipping against the British blockade. The British fleet won a victory in Nelson's surprise attack on the Danish fleet in Copenhagen harbor.
+</p>
+</section>
+
+<!-- SECTION 5 -->
+<section class="card">
+<h2>1802</h2>
+<p>
+Britain signed the Treaty of Amiens, ending the war and recognizing French conquests. Thus began the longest period of peace between 1792 and 1815. This moment marks the transition from the French Revolutionary Wars to the Napoleonic Wars, with Napoleon being crowned emperor in 1804.
+</p>
+</section>
+
+</div>
+
+<!-- JS -->
+<script src="app.js"></script>
+
+</body>
+</html>
